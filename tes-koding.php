@@ -1,7 +1,11 @@
 <?php
 function diagonalSum($matrix)
 {
-    $n = count($matrix);
+    $n = 0;
+    foreach ($matrix as $row) {
+        $n++;
+    }
+
     $sum_diagonal_primary = 0;
     $sum_diagonal_sekunder = 0;
 
